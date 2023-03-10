@@ -1,0 +1,2 @@
+#!/bin/bash
+for i in $(echo $@); do cp ../template $i;done
